@@ -3,9 +3,8 @@
 # Basic site settings
 title: “My GitHub Pages Site”
 description: “A simple Jekyll site hosted on GitHub Pages.”
-url: "https://<YOUR‑USERNAME>.github.io"  # ← change this
-baseurl: ""                                # ← if your repo is NOT username.github.io, set to "/your-repo-name"
-
+url: "https://dkim232.github.io"  # ← change this
+baseurl: ""                               
 # Theme & build settings
 theme: minima
 markdown: kramdown
