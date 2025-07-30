@@ -1,34 +1,57 @@
 <!-- index.html -->
-
+asdf
+    
 <head>
-  <style>
-    body {
-      text-align: center;
-    }
-  </style>
-</head>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 
-<header class="site-header">
-  <h1>Alex Kim</h1>
-  <p>hi, I'm currently a rising junior at johns hopkins studying cs and applied math </p>
-</header>
+	<style>
+		body {
+		background-color: black;
+		color: #fdf6e3 /* bone white */;
+		font-family: 'Inter', sans-serif;
+		text-align: center;
+		margin : 0;
+		padding : 0;
+		}
+		
+		.site-nav {
+			margin-top : 20px; /* 20px space above nav */
+		}
 
-<nav class="site-nav">
-  <a href="{{ "/" | relative_url }}">home</a>
-  <a href="{{ "/about/" | relative_url }}">about</a>
-  <a href="{{ "/resume/" | relative_url }}">resume</a>
-  <a href="{{ "/sports/" | relative_url }}">sports_betting_arbitrage</a>
-  <a href="{{ "/keyboards/" | relative_url }}">keyboards</a>
-  <a href="{{ "/contact/" | relative_url }}">contact</a>
-</nav>
+		.site-nav a {
+		margin: 0 15px; /* adds 15px space left and right of each link */
+		text-decoration: none;
+		/* color: #000; optional: makes links black */
+		font-weight: 500; /* optional: makes it a little bolder */
+		}
 
-<main class="site-content">
-  <section>
-    <h2>Welcome!</h2>
-    <p>This is a starter template for your Jekyll site on GitHub Pages.</p>
-  </section>
-</main>
+		.site-nav a:hover {
+		text-decoration: underline;
+		}
+	</style>
+	</head>
 
-<!-- <footer class="site-footer">
-  &copy; {{ site.time | date: "%Y" }} {{ site.title }}
-</footer> -->
+	<header class="site-header">
+	<h1>Alex Kim</h1>
+	<p>hi, i'm currently a rising junior at johns hopkins studying cs and applied math </p>
+	</header>
+
+	<nav class="site-nav">
+	<a href="{{ "/" | relative_url }}">home</a>
+	<a href="{{ "/about/" | relative_url }}">about</a>
+	<a href="{{ "/resume/" | relative_url }}">resume</a>
+	<a href="{{ "/sports/" | relative_url }}">sportsbetting</a>
+	<a href="{{ "/photography/" | relative_url }}">photography</a>
+	<a href="{{ "/contact/" | relative_url }}">contact</a>
+	</nav>
+
+	<!-- <main class="site-content">
+	<section>
+		<h2>Welcome!</h2>
+		<p>This is a starter template for your Jekyll site on GitHub Pages.</p>
+	</section>
+	</main> -->
+
+	<!-- <footer class="site-footer">
+	&copy; {{ site.time | date: "%Y" }} {{ site.title }}
+	</footer> -->
