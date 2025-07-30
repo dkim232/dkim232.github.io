@@ -1,0 +1,18 @@
+# _config.yml
+# —————————————————————————————————————————————————————————————
+# Basic site settings
+title: “My GitHub Pages Site”
+description: “A simple Jekyll site hosted on GitHub Pages.”
+url: "https://<YOUR‑USERNAME>.github.io"  # ← change this
+baseurl: ""                                # ← if your repo is NOT username.github.io, set to "/your-repo-name"
+
+# Theme & build settings
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Optional: Uncomment to paginate blog posts
+# paginate: 5
+# paginate_path: "/page:num/"
+# —————————————————————————————————————————————————————————————

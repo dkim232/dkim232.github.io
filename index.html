@@ -1,1 +1,27 @@
-Testing
+<!-- index.html -->
+---
+layout: default       <!-- uses the 'minima' theme’s default layout -->
+title: Home
+permalink: /
+---
+
+<header class="site-header">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+</header>
+
+<nav class="site-nav">
+  <a href="{{ "/" | relative_url }}">Home</a>
+  <a href="{{ "/about/" | relative_url }}">About</a>
+</nav>
+
+<main class="site-content">
+  <section>
+    <h2>Welcome!</h2>
+    <p>This is a starter template for your Jekyll site on GitHub Pages.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  &copy; {{ site.time | date: "%Y" }} {{ site.title }}
+</footer>
