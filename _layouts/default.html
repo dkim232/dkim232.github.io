@@ -1,62 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>{{ page.title }}</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <head>
+      <meta charset="UTF-8" />
+      <title>{{ page.title }}</title>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 
-    <style>
-      body {
-        background-color: #1A2833;
-        color: #fdf6e3; /* bone white */
-        font-family: 'Inter', sans-serif;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-      }
+      <style>
+        body {
+          background-color: #1A2833;
+          color: #fdf6e3; /* bone white */
+          font-family: 'Inter', sans-serif;
+          text-align: center;
+          margin: 0;
+          padding: 0;
+        }
 
-      .site-header {
-        margin-top: 50px; 
-      }
+        .site-header {
+          margin-top: 50px; 
+        }
 
-      .site-nav {
-        margin-top: 20px;
-      }
+        .site-nav {
+          margin-top: 20px;
+        }
 
-      .site-nav a {
-        margin: 0 15px; /* adds 15px space left and right of each link */
-        text-decoration: none;
-        color: #70a1ff; 
-        font-weight: 500; 
-      }
+        .site-nav a {
+          margin: 0 15px; /* adds 15px space left and right of each link */
+          text-decoration: none;
+          color: #70a1ff; 
+          font-weight: 500; 
+        }
 
-      .site-nav a:hover {
-        text-decoration: underline;
-      }
-    </style>
-  </head>
+        .site-nav a:hover {
+          text-decoration: underline;
+        }
+      </style>
+    </head>
 
-  <body>
-    <header class="site-header">
-      <h1>Alex Kim</h1>
-      
-    </header>
+    <body>
+      <header class="site-header">
+        <h1>Alex Kim</h1>
+        
+      </header>
 
-    <nav class="site-nav">
-      <a href="{{ "/" | relative_url }}">home</a>
-      <a href="{{ "/about" | relative_url }}">about</a>
-      <a href="{{ "/resume" | relative_url }}">resume</a>
-      <a href="{{ "/sports" | relative_url }}">sportsbetting</a>
-      <a href="{{ "/photos" | relative_url }}">photos</a>
-      <a href="{{ "/contact" | relative_url }}">contact</a>
-    </nav>
+      <nav class="site-nav">
+        <a href="{{ "/" | relative_url }}">home</a>
+        <a href="{{ "/about" | relative_url }}">about</a>
+        <a href="{{ "/resume" | relative_url }}">resume</a>
+        <a href="{{ "/sports" | relative_url }}">sports</a>
+        <a href="{{ "/photos" | relative_url }}">photos</a>
+        <a href="{{ "/contact" | relative_url }}">contact</a>
+      </nav>
 
-    <main class="site-content">
-      {{ content }}
-    </main>
+      <main class="site-content">
+        {{ content }}
+      </main>
 
-    <!-- <footer class="site-footer">
-      &copy; {{ site.time | date: "%Y" }} {{ site.title }}
-    </footer> -->
-  </body>
+      <!-- <footer class="site-footer">
+        &copy; {{ site.time | date: "%Y" }} {{ site.title }}
+      </footer> -->
+    </body>
 </html>
