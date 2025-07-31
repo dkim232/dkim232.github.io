@@ -6,7 +6,7 @@ description: “A simple Jekyll site hosted on GitHub Pages.”
 url: "https://dkim232.github.io"  # ← change this
 baseurl: ""                               
 # Theme & build settings
-theme: minima
+# theme: minima  # Commented out since using custom layout
 markdown: kramdown
 plugins:
   - jekyll-feed
