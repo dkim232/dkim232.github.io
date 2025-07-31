@@ -81,10 +81,18 @@
         border-radius: 6px;
       }
 
+      .social-icons a:visited {
+        color: #70a1ff; /* keep footer links blue even when visited */
+      }
+
       .social-icons a:hover {
         color: #fdf6e3;
         background-color: rgba(112, 161, 255, 0.1);
         transform: translateY(-2px);
+      }
+
+      .social-icons a:active {
+        color: #fdf6e3; /* keep white when active instead of red */
       }
       </style>
     </head>
