@@ -33,24 +33,28 @@
           font-weight: 500; 
         }
 
+        .site-nav a:visited {
+          color: #70a1ff; /* keep navigation links blue even when visited */
+        }
+
               .site-nav a:hover {
         text-decoration: underline;
       }
 
-      /* link states */
-      a:link {
+      /* link states - only for non-navigation links */
+      a:not(.site-nav a):link {
         color: #70a1ff;
       }
 
-      a:visited {
+      a:not(.site-nav a):visited {
         color: #a590d6; /* purple for visited links */
       }
 
-      a:hover {
+      a:not(.site-nav a):hover {
         color: #fdf6e3;
       }
 
-      a:active {
+      a:not(.site-nav a):active {
         color: #ff6b6b; /* red while clicking */
       }
 
