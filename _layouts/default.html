@@ -41,20 +41,20 @@
         text-decoration: underline;
       }
 
-      /* link states - only for non-navigation links */
-      a:not(.site-nav a):link {
+      /* link states - only for non-navigation and non-footer links */
+      a:not(.site-nav a):not(.social-icons a):link {
         color: #70a1ff;
       }
 
-      a:not(.site-nav a):visited {
+      a:not(.site-nav a):not(.social-icons a):visited {
         color: #a590d6; /* purple for visited links */
       }
 
-      a:not(.site-nav a):hover {
+      a:not(.site-nav a):not(.social-icons a):hover {
         color: #fdf6e3;
       }
 
-      a:not(.site-nav a):active {
+      a:not(.site-nav a):not(.social-icons a):active {
         color: #ff6b6b; /* red while clicking */
       }
 
